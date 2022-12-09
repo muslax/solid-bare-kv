@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/components/HttpHeader.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { onCleanup, useContext } from \"solid-js\";\nimport { isServer } from \"solid-js/web\";\nimport { ServerContext } from \"../ServerContext\";\n\nexport function HttpHeader(props: { name: string; value: string }) {\n  const pageContext = useContext(ServerContext);\n\n  if (isServer) {\n    pageContext!.responseHeaders.set(props.name, props.value);\n  }\n\n  onCleanup(() => {\n    if (isServer) {\n      pageContext!.responseHeaders.delete(props.name);\n    }\n  });\n\n  return null;\n}\n",
+      "start": 1670615855138,
+      "end": 1670615855153
+    },
+    {
+      "name": "solid",
+      "result": "import { onCleanup, useContext } from \"solid-js\";\nimport { isServer } from \"solid-js/web\";\nimport { ServerContext } from \"../ServerContext\";\nexport function HttpHeader(props) {\n  const pageContext = useContext(ServerContext);\n  if (isServer) {\n    pageContext.responseHeaders.set(props.name, props.value);\n  }\n  onCleanup(() => {\n    if (isServer) {\n      pageContext.responseHeaders.delete(props.name);\n    }\n  });\n  return null;\n}",
+      "start": 1670615855153,
+      "end": 1670615855155
+    }
+  ],
+  "virtual": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";\n\n",
+      "start": 1670615854998,
+      "end": 1670615855042
+    },
+    {
+      "name": "solid",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";",
+      "start": 1670615855042,
+      "end": 1670615855043
+    }
+  ],
+  "virtual": false
+}

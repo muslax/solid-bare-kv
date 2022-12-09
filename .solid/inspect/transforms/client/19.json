@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/error-boundary/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;\n",
+      "start": 1670615854489,
+      "end": 1670615854564
+    },
+    {
+      "name": "solid",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;",
+      "start": 1670615854564,
+      "end": 1670615854565
+    }
+  ],
+  "virtual": false
+}

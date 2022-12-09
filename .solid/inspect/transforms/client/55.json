@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/routes/[...404].tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Title } from \"solid-start\";\nimport { HttpStatusCode } from \"solid-start/server\";\n\nexport default function NotFound() {\n  return (\n    <main>\n      <Title>Not Found</Title>\n      <HttpStatusCode code={404} />\n      <h1>Page Not Found</h1>\n      <p>\n        Visit{\" \"}\n        <a href=\"https://start.solidjs.com\" target=\"_blank\">\n          start.solidjs.com\n        </a>{\" \"}\n        to learn how to build SolidStart apps.\n      </p>\n    </main>\n  );\n}\n",
+      "start": 1670615854481,
+      "end": 1670615854511
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { getNextMarker as _$getNextMarker } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<main><!#><!/><!#><!/><h1>Page Not Found</h1><p>Visit <a href=\"https://start.solidjs.com\" target=\"_blank\">start.solidjs.com</a> to learn how to build SolidStart apps.</p></main>`, 12);\nimport { Title } from \"solid-start\";\nimport { HttpStatusCode } from \"solid-start/server\";\nexport default function NotFound() {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$),\n      _el$3 = _el$.firstChild,\n      [_el$4, _co$] = _$getNextMarker(_el$3.nextSibling),\n      _el$5 = _el$4.nextSibling,\n      [_el$6, _co$2] = _$getNextMarker(_el$5.nextSibling),\n      _el$2 = _el$6.nextSibling;\n    _$insert(_el$, _$createComponent(Title, {\n      children: \"Not Found\"\n    }), _el$4, _co$);\n    _$insert(_el$, _$createComponent(HttpStatusCode, {\n      code: 404\n    }), _el$6, _co$2);\n    return _el$;\n  })();\n}",
+      "start": 1670615854512,
+      "end": 1670615854519
+    }
+  ],
+  "virtual": false
+}

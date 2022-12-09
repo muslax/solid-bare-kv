@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/root.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// @refresh reload\nimport { Suspense } from \"solid-js\";\nimport {\n  A,\n  Body,\n  ErrorBoundary,\n  FileRoutes,\n  Head,\n  Html,\n  Meta,\n  Routes,\n  Scripts,\n  Title\n} from \"solid-start\";\nimport \"./root.css\";\n\nexport default function Root() {\n  return (\n    <Html lang=\"en\">\n      <Head>\n        <Title>SolidStart - Bare</Title>\n        <Meta charset=\"utf-8\" />\n        <Meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n      </Head>\n      <Body>\n        <Suspense>\n          <ErrorBoundary>\n            <A href=\"/\">Index</A>\n            <A href=\"/about\">About</A>\n            <Routes>\n              <FileRoutes />\n            </Routes>\n          </ErrorBoundary>\n        </Suspense>\n        <Scripts />\n      </Body>\n    </Html>\n  );\n}\n",
+      "start": 1670615854908,
+      "end": 1670615854927
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\n// @refresh reload\nimport { Suspense } from \"solid-js\";\nimport FileRoutes from \"solid-start/root/FileRoutes\";\nimport { A, Body, ErrorBoundary, Head, Html, Meta, Routes, Scripts, Title } from \"solid-start\";\nimport \"./root.css\";\nexport default function Root() {\n  return _$createComponent(Html, {\n    lang: \"en\",\n    get children() {\n      return [_$createComponent(Head, {\n        get children() {\n          return [_$createComponent(Title, {\n            children: \"SolidStart - Bare\"\n          }), _$createComponent(Meta, {\n            charset: \"utf-8\"\n          }), _$createComponent(Meta, {\n            name: \"viewport\",\n            content: \"width=device-width, initial-scale=1\"\n          })];\n        }\n      }), _$createComponent(Body, {\n        get children() {\n          return [_$createComponent(Suspense, {\n            get children() {\n              return _$createComponent(ErrorBoundary, {\n                get children() {\n                  return [_$createComponent(A, {\n                    href: \"/\",\n                    children: \"Index\"\n                  }), _$createComponent(A, {\n                    href: \"/about\",\n                    children: \"About\"\n                  }), _$createComponent(Routes, {\n                    get children() {\n                      return _$createComponent(FileRoutes, {});\n                    }\n                  })];\n                }\n              });\n            }\n          }), _$createComponent(Scripts, {})];\n        }\n      })];\n    }\n  });\n}",
+      "start": 1670615854927,
+      "end": 1670615854930
+    }
+  ],
+  "virtual": false
+}

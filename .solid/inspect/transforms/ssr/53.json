@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/entry-server.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createHandler, renderAsync, StartServer } from \"solid-start/entry-server\";\n\nexport default createHandler(renderAsync(event => <StartServer event={event} />));\n",
+      "start": 1670615854884,
+      "end": 1670615854885
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { createHandler, renderAsync, StartServer } from \"solid-start/entry-server\";\nexport default createHandler(renderAsync(event => _$createComponent(StartServer, {\n  event: event\n})));",
+      "start": 1670615854885,
+      "end": 1670615854887
+    }
+  ],
+  "virtual": false
+}

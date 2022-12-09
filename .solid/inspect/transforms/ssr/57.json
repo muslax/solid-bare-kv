@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Title, useRouteData } from \"solid-start\";\nimport { createServerData$, redirect } from \"solid-start/server\";\nimport Counter from \"~/components/Counter\";\n\nexport function routeData() {\n  return createServerData$(async (_, { request, env }) => {\n    const entries = await env.SOLID.list();\n    console.log(entries);\n\n    return entries;\n  });\n}\n\nexport default function Home() {\n  const entries = useRouteData<typeof routeData>();\n  return (\n    <main>\n      <Title>Hello World</Title>\n      <h1>Hello world!</h1>\n      <pre>ENTRIES: {JSON.stringify(entries, null, 2)}</pre>\n      <Counter />\n      <p>\n        Visit{\" \"}\n        <a href=\"https://start.solidjs.com\" target=\"_blank\">\n          start.solidjs.com\n        </a>{\" \"}\n        to learn how to build SolidStart apps.\n      </p>\n    </main>\n  );\n}\n",
+      "start": 1670615854927,
+      "end": 1670615854975
+    },
+    {
+      "name": "solid",
+      "result": "import { ssr as _$ssr } from \"solid-js/web\";\nimport { escape as _$escape } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nimport { ssrHydrationKey as _$ssrHydrationKey } from \"solid-js/web\";\nconst _tmpl$ = [\"<main\", \"><!--#-->\", \"<!--/--><h1>Hello world!</h1><pre>ENTRIES: <!--#-->\", \"<!--/--></pre><!--#-->\", \"<!--/--><p>Visit <a href=\\\"https://start.solidjs.com\\\" target=\\\"_blank\\\">start.solidjs.com</a> to learn how to build SolidStart apps.</p></main>\"];\nimport { createRouteData } from \"solid-start/data\";\nimport server$ from \"solid-start/server\";\nimport { Title, useRouteData } from \"solid-start\";\nimport \"solid-start/server\";\nimport Counter from \"~/components/Counter\";\nconst $$server_module0 = server$.createHandler(async function $$serverHandler0(_, {\n  request,\n  env\n}) {\n  const $$ctx = this;\n  const entries = await env.SOLID.list();\n  console.log(entries);\n  return entries;\n}, \"/_m/0dbe216f23/routeData\");\nserver$.registerHandler(\"/_m/0dbe216f23/routeData\", $$server_module0);\nexport function routeData() {\n  return createRouteData($$server_module0);\n}\nexport default function Home() {\n  const entries = useRouteData();\n  return _$ssr(_tmpl$, _$ssrHydrationKey(), _$escape(_$createComponent(Title, {\n    children: \"Hello World\"\n  })), _$escape(JSON.stringify(entries, null, 2)), _$escape(_$createComponent(Counter, {})));\n}",
+      "start": 1670615854976,
+      "end": 1670615854984
+    }
+  ],
+  "virtual": false
+}

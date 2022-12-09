@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/browser.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export { server$ as default } from \"./server-functions/browser\";\nexport * from \"./shared\";\n\nexport const isServerFunctionRequest = () => {\n  throw new Error(\"isServerFunctionRequest is not supported on the browser\");\n};\n\n\n",
+      "start": 1670615854511,
+      "end": 1670615854596
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { server$ as default } from \"./server-functions/browser\";\nexport * from \"./shared\";\nexport const isServerFunctionRequest = () => {\n  throw new Error(\"isServerFunctionRequest is not supported on the browser\");\n};\n",
+      "start": 1670615854596,
+      "end": 1670615854608
+    }
+  ],
+  "virtual": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/components/Counter.css",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:css",
+    "vite:css-post"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": ".increment {\n  font-family: inherit;\n  font-size: inherit;\n  padding: 1em 2em;\n  color: #335d92;\n  background-color: rgba(68, 107, 158, 0.1);\n  border-radius: 2em;\n  border: 2px solid rgba(68, 107, 158, 0);\n  outline: none;\n  width: 200px;\n  font-variant-numeric: tabular-nums;\n}\n\n.increment:focus {\n  border: 2px solid #335d92;\n}\n\n.increment:active {\n  background-color: rgba(68, 107, 158, 0.2);\n}",
+      "start": 1670615855042,
+      "end": 1670615855081
+    },
+    {
+      "name": "vite:css",
+      "result": ".increment {\n  font-family: inherit;\n  font-size: inherit;\n  padding: 1em 2em;\n  color: #335d92;\n  background-color: rgba(68, 107, 158, 0.1);\n  border-radius: 2em;\n  border: 2px solid rgba(68, 107, 158, 0);\n  outline: none;\n  width: 200px;\n  font-variant-numeric: tabular-nums;\n}\n\n.increment:focus {\n  border: 2px solid #335d92;\n}\n\n.increment:active {\n  background-color: rgba(68, 107, 158, 0.2);\n}",
+      "start": 1670615855081,
+      "end": 1670615855162
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1670615855162,
+      "end": 1670615855163
+    }
+  ],
+  "virtual": false
+}

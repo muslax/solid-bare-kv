@@ -1,0 +1,6 @@
+name = "ss-bare"
+compatibility_date = "2022-11-22"
+
+kv_namespaces = [
+  { binding = "SOLID", id = "f30ca1832a9f401b99812e24840d4c9d", preview_id = "f30ca1832a9f401b99812e24840d4c9d" },
+]

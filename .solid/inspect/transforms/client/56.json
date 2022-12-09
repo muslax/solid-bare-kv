@@ -1,0 +1,23 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Title, useRouteData } from \"solid-start\";\nimport { createServerData$, redirect } from \"solid-start/server\";\nimport Counter from \"~/components/Counter\";\n\nexport function routeData() {\n  return createServerData$(async (_, { request, env }) => {\n    const entries = await env.SOLID.list();\n    console.log(entries);\n\n    return entries;\n  });\n}\n\nexport default function Home() {\n  const entries = useRouteData<typeof routeData>();\n  return (\n    <main>\n      <Title>Hello World</Title>\n      <h1>Hello world!</h1>\n      <pre>ENTRIES: {JSON.stringify(entries, null, 2)}</pre>\n      <Counter />\n      <p>\n        Visit{\" \"}\n        <a href=\"https://start.solidjs.com\" target=\"_blank\">\n          start.solidjs.com\n        </a>{\" \"}\n        to learn how to build SolidStart apps.\n      </p>\n    </main>\n  );\n}\n",
+      "start": 1670615854481,
+      "end": 1670615854522
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { getNextMarker as _$getNextMarker } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<main><!#><!/><h1>Hello world!</h1><pre>ENTRIES: <!#><!/></pre><!#><!/><p>Visit <a href=\"https://start.solidjs.com\" target=\"_blank\">start.solidjs.com</a> to learn how to build SolidStart apps.</p></main>`, 16);\nimport { createRouteData } from \"solid-start/data\";\nimport server$ from \"solid-start/server\";\nimport { Title, useRouteData } from \"solid-start\";\nimport Counter from \"~/components/Counter\";\nconst $$server_module0 = server$.createFetcher(\"/_m/0dbe216f23/routeData\");\nexport function routeData() {\n  return createRouteData($$server_module0);\n}\nexport default function Home() {\n  const entries = useRouteData();\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$),\n      _el$8 = _el$.firstChild,\n      [_el$9, _co$2] = _$getNextMarker(_el$8.nextSibling),\n      _el$2 = _el$9.nextSibling,\n      _el$3 = _el$2.nextSibling,\n      _el$4 = _el$3.firstChild,\n      _el$5 = _el$4.nextSibling,\n      [_el$6, _co$] = _$getNextMarker(_el$5.nextSibling),\n      _el$10 = _el$3.nextSibling,\n      [_el$11, _co$3] = _$getNextMarker(_el$10.nextSibling),\n      _el$7 = _el$11.nextSibling;\n    _$insert(_el$, _$createComponent(Title, {\n      children: \"Hello World\"\n    }), _el$9, _co$2);\n    _$insert(_el$3, () => JSON.stringify(entries, null, 2), _el$6, _co$);\n    _$insert(_el$, _$createComponent(Counter, {}), _el$11, _co$3);\n    return _el$;\n  })();\n}",
+      "start": 1670615854522,
+      "end": 1670615854535
+    }
+  ],
+  "virtual": false
+}

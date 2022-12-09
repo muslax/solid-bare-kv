@@ -1,0 +1,30 @@
+{
+  "id": "/Users/polt/solid-start-examples-0.2.6/bare/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/FileRoutes.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid-start-file-system-router",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\nvar fileRoutes = $FILE_ROUTES;\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1670615854908,
+      "end": 1670615854924
+    },
+    {
+      "name": "solid-start-file-system-router",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\n  \n  import routeData0  from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/[...404].tsx';\nimport  { routeData as routeData1 } from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx?data';\nimport routeData2  from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx';\n  const fileRoutes = /*#__PURE__*/ [\n{\ncomponent: routeData0,\n path: \"/*404\" \n},\n{\ndata: routeData1,\n component: routeData2,\n path: \"/\" \n}\n];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1670615854924,
+      "end": 1670615854924
+    },
+    {
+      "name": "solid",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\nimport routeData0 from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/[...404].tsx';\nimport { routeData as routeData1 } from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx?data';\nimport routeData2 from '/Users/polt/solid-start-examples-0.2.6/bare/src/routes/index.tsx';\nconst fileRoutes = /*#__PURE__*/[{\n  component: routeData0,\n  path: \"/*404\"\n}, {\n  data: routeData1,\n  component: routeData2,\n  path: \"/\"\n}];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\nexport default FileRoutes;\nexport { fileRoutes };",
+      "start": 1670615854924,
+      "end": 1670615854926
+    }
+  ],
+  "virtual": false
+}

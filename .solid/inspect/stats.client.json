@@ -1,0 +1,1928 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "assets/entry-client.99b9d604.js",
+        "children": [
+          {
+            "name": "node_modules/.pnpm",
+            "children": [
+              {
+                "name": "solid-js@1.6.4/node_modules/solid-js",
+                "children": [
+                  {
+                    "name": "dist/solid.js",
+                    "uid": "b5d1-1"
+                  },
+                  {
+                    "name": "web/dist/web.js",
+                    "uid": "b5d1-3"
+                  },
+                  {
+                    "name": "store/dist/store.js",
+                    "uid": "b5d1-27"
+                  }
+                ]
+              },
+              {
+                "name": "solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start",
+                "children": [
+                  {
+                    "name": "entry-client",
+                    "children": [
+                      {
+                        "uid": "b5d1-7",
+                        "name": "mount.tsx"
+                      },
+                      {
+                        "uid": "b5d1-55",
+                        "name": "StartClient.tsx"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "data",
+                    "children": [
+                      {
+                        "uid": "b5d1-21",
+                        "name": "FormError.tsx"
+                      },
+                      {
+                        "uid": "b5d1-33",
+                        "name": "createRouteData.tsx"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "server",
+                    "children": [
+                      {
+                        "uid": "b5d1-23",
+                        "name": "responses.ts"
+                      },
+                      {
+                        "uid": "b5d1-25",
+                        "name": "ServerContext.tsx"
+                      },
+                      {
+                        "uid": "b5d1-31",
+                        "name": "types.tsx"
+                      },
+                      {
+                        "name": "server-functions/browser.ts",
+                        "uid": "b5d1-35"
+                      }
+                    ]
+                  },
+                  {
+                    "uid": "b5d1-29",
+                    "name": "router.tsx"
+                  },
+                  {
+                    "name": "error-boundary/ErrorBoundary.tsx",
+                    "uid": "b5d1-37"
+                  },
+                  {
+                    "name": "root",
+                    "children": [
+                      {
+                        "uid": "b5d1-39",
+                        "name": "Scripts.tsx"
+                      },
+                      {
+                        "uid": "b5d1-41",
+                        "name": "Document.tsx"
+                      },
+                      {
+                        "uid": "b5d1-49",
+                        "name": "FileRoutes.tsx"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "@solidjs+meta@0.28.2_solid-js@1.6.4/node_modules/@solidjs/meta/dist/index.jsx",
+                "uid": "b5d1-9"
+              },
+              {
+                "name": "@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist",
+                "children": [
+                  {
+                    "uid": "b5d1-11",
+                    "name": "integration.js"
+                  },
+                  {
+                    "uid": "b5d1-13",
+                    "name": "lifecycle.js"
+                  },
+                  {
+                    "uid": "b5d1-15",
+                    "name": "utils.js"
+                  },
+                  {
+                    "uid": "b5d1-17",
+                    "name": "routing.js"
+                  },
+                  {
+                    "uid": "b5d1-19",
+                    "name": "components.jsx"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "\u0000vite/preload-helper",
+            "uid": "b5d1-5"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "components",
+                "children": [
+                  {
+                    "uid": "b5d1-43",
+                    "name": "Counter.css"
+                  },
+                  {
+                    "uid": "b5d1-45",
+                    "name": "Counter.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "routes/index.tsx?data",
+                "uid": "b5d1-47"
+              },
+              {
+                "uid": "b5d1-51",
+                "name": "root.css"
+              },
+              {
+                "uid": "b5d1-53",
+                "name": "root.tsx"
+              },
+              {
+                "uid": "b5d1-57",
+                "name": "entry-client.tsx"
+              }
+            ]
+          }
+        ],
+        "id": "assets/entry-client.99b9d604.js",
+        "gzipLength": 16705,
+        "brotliLength": 0,
+        "renderedLength": 44128
+      },
+      {
+        "name": "assets/_...404_.92a25894.js",
+        "children": [
+          {
+            "name": "node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/components/HttpStatusCode.tsx",
+            "uid": "b5d1-59"
+          },
+          {
+            "name": "src/routes/[...404].tsx",
+            "uid": "b5d1-61"
+          }
+        ],
+        "id": "assets/_...404_.92a25894.js",
+        "gzipLength": 375,
+        "brotliLength": 0,
+        "renderedLength": 561
+      },
+      {
+        "name": "assets/index.4a4379ff.js",
+        "children": [
+          {
+            "name": "src/routes/index.tsx",
+            "uid": "b5d1-63"
+          }
+        ],
+        "id": "assets/index.4a4379ff.js",
+        "gzipLength": 484,
+        "brotliLength": 0,
+        "renderedLength": 769
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "b5d1-1": {
+      "renderedLength": 28835,
+      "gzipLength": 6982,
+      "brotliLength": 0,
+      "mainUid": "b5d1-0"
+    },
+    "b5d1-3": {
+      "renderedLength": 17050,
+      "gzipLength": 4733,
+      "brotliLength": 0,
+      "mainUid": "b5d1-2"
+    },
+    "b5d1-5": {
+      "renderedLength": 2200,
+      "gzipLength": 932,
+      "brotliLength": 0,
+      "mainUid": "b5d1-4"
+    },
+    "b5d1-7": {
+      "renderedLength": 88,
+      "gzipLength": 80,
+      "brotliLength": 0,
+      "mainUid": "b5d1-6"
+    },
+    "b5d1-9": {
+      "renderedLength": 4011,
+      "gzipLength": 1316,
+      "brotliLength": 0,
+      "mainUid": "b5d1-8"
+    },
+    "b5d1-11": {
+      "renderedLength": 2116,
+      "gzipLength": 785,
+      "brotliLength": 0,
+      "mainUid": "b5d1-10"
+    },
+    "b5d1-13": {
+      "renderedLength": 845,
+      "gzipLength": 326,
+      "brotliLength": 0,
+      "mainUid": "b5d1-12"
+    },
+    "b5d1-15": {
+      "renderedLength": 4291,
+      "gzipLength": 1632,
+      "brotliLength": 0,
+      "mainUid": "b5d1-14"
+    },
+    "b5d1-17": {
+      "renderedLength": 12432,
+      "gzipLength": 3447,
+      "brotliLength": 0,
+      "mainUid": "b5d1-16"
+    },
+    "b5d1-19": {
+      "renderedLength": 3803,
+      "gzipLength": 1278,
+      "brotliLength": 0,
+      "mainUid": "b5d1-18"
+    },
+    "b5d1-21": {
+      "renderedLength": 607,
+      "gzipLength": 275,
+      "brotliLength": 0,
+      "mainUid": "b5d1-20"
+    },
+    "b5d1-23": {
+      "renderedLength": 997,
+      "gzipLength": 422,
+      "brotliLength": 0,
+      "mainUid": "b5d1-22"
+    },
+    "b5d1-25": {
+      "renderedLength": 40,
+      "gzipLength": 54,
+      "brotliLength": 0,
+      "mainUid": "b5d1-24"
+    },
+    "b5d1-27": {
+      "renderedLength": 10306,
+      "gzipLength": 2722,
+      "brotliLength": 0,
+      "mainUid": "b5d1-26"
+    },
+    "b5d1-29": {
+      "renderedLength": 95,
+      "gzipLength": 86,
+      "brotliLength": 0,
+      "mainUid": "b5d1-28"
+    },
+    "b5d1-31": {
+      "renderedLength": 29,
+      "gzipLength": 45,
+      "brotliLength": 0,
+      "mainUid": "b5d1-30"
+    },
+    "b5d1-33": {
+      "renderedLength": 2835,
+      "gzipLength": 1059,
+      "brotliLength": 0,
+      "mainUid": "b5d1-32"
+    },
+    "b5d1-35": {
+      "renderedLength": 3628,
+      "gzipLength": 1055,
+      "brotliLength": 0,
+      "mainUid": "b5d1-34"
+    },
+    "b5d1-37": {
+      "renderedLength": 1958,
+      "gzipLength": 700,
+      "brotliLength": 0,
+      "mainUid": "b5d1-36"
+    },
+    "b5d1-39": {
+      "renderedLength": 270,
+      "gzipLength": 197,
+      "brotliLength": 0,
+      "mainUid": "b5d1-38"
+    },
+    "b5d1-41": {
+      "renderedLength": 796,
+      "gzipLength": 295,
+      "brotliLength": 0,
+      "mainUid": "b5d1-40"
+    },
+    "b5d1-43": {
+      "renderedLength": 21,
+      "gzipLength": 41,
+      "brotliLength": 0,
+      "mainUid": "b5d1-42"
+    },
+    "b5d1-45": {
+      "renderedLength": 503,
+      "gzipLength": 317,
+      "brotliLength": 0,
+      "mainUid": "b5d1-44"
+    },
+    "b5d1-47": {
+      "renderedLength": 144,
+      "gzipLength": 127,
+      "brotliLength": 0,
+      "mainUid": "b5d1-46"
+    },
+    "b5d1-49": {
+      "renderedLength": 501,
+      "gzipLength": 308,
+      "brotliLength": 0,
+      "mainUid": "b5d1-48"
+    },
+    "b5d1-51": {
+      "renderedLength": 16,
+      "gzipLength": 36,
+      "brotliLength": 0,
+      "mainUid": "b5d1-50"
+    },
+    "b5d1-53": {
+      "renderedLength": 1230,
+      "gzipLength": 347,
+      "brotliLength": 0,
+      "mainUid": "b5d1-52"
+    },
+    "b5d1-55": {
+      "renderedLength": 1008,
+      "gzipLength": 405,
+      "brotliLength": 0,
+      "mainUid": "b5d1-54"
+    },
+    "b5d1-57": {
+      "renderedLength": 56,
+      "gzipLength": 72,
+      "brotliLength": 0,
+      "mainUid": "b5d1-56"
+    },
+    "b5d1-59": {
+      "renderedLength": 104,
+      "gzipLength": 108,
+      "brotliLength": 0,
+      "mainUid": "b5d1-58"
+    },
+    "b5d1-61": {
+      "renderedLength": 710,
+      "gzipLength": 393,
+      "brotliLength": 0,
+      "mainUid": "b5d1-60"
+    },
+    "b5d1-63": {
+      "renderedLength": 1151,
+      "gzipLength": 553,
+      "brotliLength": 0,
+      "mainUid": "b5d1-62"
+    }
+  },
+  "nodeMetas": {
+    "b5d1-0": {
+      "id": "/node_modules/.pnpm/solid-js@1.6.4/node_modules/solid-js/dist/solid.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-1"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-6"
+        },
+        {
+          "uid": "b5d1-65"
+        },
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-52"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-18"
+        },
+        {
+          "uid": "b5d1-10"
+        },
+        {
+          "uid": "b5d1-16"
+        },
+        {
+          "uid": "b5d1-14"
+        },
+        {
+          "uid": "b5d1-48"
+        },
+        {
+          "uid": "b5d1-70"
+        },
+        {
+          "uid": "b5d1-28"
+        },
+        {
+          "uid": "b5d1-44"
+        },
+        {
+          "uid": "b5d1-75"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-36"
+        },
+        {
+          "uid": "b5d1-76"
+        },
+        {
+          "uid": "b5d1-40"
+        },
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-38"
+        },
+        {
+          "uid": "b5d1-79"
+        },
+        {
+          "uid": "b5d1-87"
+        },
+        {
+          "uid": "b5d1-26"
+        },
+        {
+          "uid": "b5d1-88"
+        },
+        {
+          "uid": "b5d1-89"
+        },
+        {
+          "uid": "b5d1-58"
+        }
+      ]
+    },
+    "b5d1-2": {
+      "id": "/node_modules/.pnpm/solid-js@1.6.4/node_modules/solid-js/web/dist/web.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-3"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-56"
+        },
+        {
+          "uid": "b5d1-6"
+        },
+        {
+          "uid": "b5d1-54"
+        },
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-52"
+        },
+        {
+          "uid": "b5d1-18"
+        },
+        {
+          "uid": "b5d1-16"
+        },
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-60"
+        },
+        {
+          "uid": "b5d1-62"
+        },
+        {
+          "uid": "b5d1-70"
+        },
+        {
+          "uid": "b5d1-28"
+        },
+        {
+          "uid": "b5d1-44"
+        },
+        {
+          "uid": "b5d1-75"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-36"
+        },
+        {
+          "uid": "b5d1-76"
+        },
+        {
+          "uid": "b5d1-40"
+        },
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-38"
+        },
+        {
+          "uid": "b5d1-79"
+        },
+        {
+          "uid": "b5d1-87"
+        },
+        {
+          "uid": "b5d1-88"
+        },
+        {
+          "uid": "b5d1-89"
+        },
+        {
+          "uid": "b5d1-58"
+        }
+      ]
+    },
+    "b5d1-4": {
+      "id": "\u0000vite/preload-helper",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-5"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-6"
+        },
+        {
+          "uid": "b5d1-48"
+        }
+      ]
+    },
+    "b5d1-6": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/entry-client/mount.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-7"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-4"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-65"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-64"
+        }
+      ]
+    },
+    "b5d1-8": {
+      "id": "/node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.6.4/node_modules/@solidjs/meta/dist/index.jsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-9"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-54"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-88"
+        }
+      ]
+    },
+    "b5d1-10": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/integration.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-11"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-18"
+        },
+        {
+          "uid": "b5d1-16"
+        }
+      ]
+    },
+    "b5d1-12": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/lifecycle.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-13"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-16"
+        }
+      ]
+    },
+    "b5d1-14": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/utils.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-15"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-18"
+        },
+        {
+          "uid": "b5d1-16"
+        }
+      ]
+    },
+    "b5d1-16": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/routing.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-17"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-10"
+        },
+        {
+          "uid": "b5d1-12"
+        },
+        {
+          "uid": "b5d1-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-18"
+        }
+      ]
+    },
+    "b5d1-18": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/components.jsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-19"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-10"
+        },
+        {
+          "uid": "b5d1-16"
+        },
+        {
+          "uid": "b5d1-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-66"
+        }
+      ]
+    },
+    "b5d1-20": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/data/FormError.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-21"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-34"
+        },
+        {
+          "uid": "b5d1-87"
+        }
+      ]
+    },
+    "b5d1-22": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/responses.ts",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-23"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-75"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-34"
+        },
+        {
+          "uid": "b5d1-86"
+        }
+      ]
+    },
+    "b5d1-24": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/ServerContext.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-25"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-54"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-70"
+        },
+        {
+          "uid": "b5d1-75"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-38"
+        },
+        {
+          "uid": "b5d1-86"
+        },
+        {
+          "uid": "b5d1-88"
+        },
+        {
+          "uid": "b5d1-89"
+        },
+        {
+          "uid": "b5d1-58"
+        }
+      ]
+    },
+    "b5d1-26": {
+      "id": "/node_modules/.pnpm/solid-js@1.6.4/node_modules/solid-js/store/dist/store.js",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-27"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-32"
+        }
+      ]
+    },
+    "b5d1-28": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/router.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-29"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-79"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-32"
+        }
+      ]
+    },
+    "b5d1-30": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/types.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-31"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-54"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-34"
+        },
+        {
+          "uid": "b5d1-86"
+        }
+      ]
+    },
+    "b5d1-32": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/data/createRouteData.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-33"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-26"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-28"
+        },
+        {
+          "uid": "b5d1-22"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-75"
+        }
+      ]
+    },
+    "b5d1-34": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/server-functions/browser.ts",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-35"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-22"
+        },
+        {
+          "uid": "b5d1-30"
+        },
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-74"
+        }
+      ]
+    },
+    "b5d1-36": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/error-boundary/ErrorBoundary.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-37"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-69"
+        }
+      ]
+    },
+    "b5d1-38": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/Scripts.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-39"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-88"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-71"
+        },
+        {
+          "uid": "b5d1-40"
+        }
+      ]
+    },
+    "b5d1-40": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/Document.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-41"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-38"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-71"
+        }
+      ]
+    },
+    "b5d1-42": {
+      "id": "/src/components/Counter.css",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-43"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-44"
+        }
+      ]
+    },
+    "b5d1-44": {
+      "id": "/src/components/Counter.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-45"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-62"
+        }
+      ]
+    },
+    "b5d1-46": {
+      "id": "/src/routes/index.tsx?data",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-47"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-74"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-44"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-48"
+        }
+      ]
+    },
+    "b5d1-48": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/FileRoutes.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-49"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-4"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-60",
+          "dynamic": true
+        },
+        {
+          "uid": "b5d1-62",
+          "dynamic": true
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-52"
+        }
+      ]
+    },
+    "b5d1-50": {
+      "id": "/src/root.css",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-51"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-52"
+        }
+      ]
+    },
+    "b5d1-52": {
+      "id": "/src/root.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-53"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-48"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-50"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-54"
+        }
+      ]
+    },
+    "b5d1-54": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/entry-client/StartClient.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-55"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-52"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-64"
+        }
+      ]
+    },
+    "b5d1-56": {
+      "id": "/src/entry-client.tsx",
+      "moduleParts": {
+        "assets/entry-client.99b9d604.js": "b5d1-57"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-64"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "b5d1-58": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/components/HttpStatusCode.tsx",
+      "moduleParts": {
+        "assets/_...404_.92a25894.js": "b5d1-59"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-86"
+        }
+      ]
+    },
+    "b5d1-60": {
+      "id": "/src/routes/[...404].tsx",
+      "moduleParts": {
+        "assets/_...404_.92a25894.js": "b5d1-61"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-74"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-48"
+        }
+      ]
+    },
+    "b5d1-62": {
+      "id": "/src/routes/index.tsx",
+      "moduleParts": {
+        "assets/index.4a4379ff.js": "b5d1-63"
+      },
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-74"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-44"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-48"
+        }
+      ]
+    },
+    "b5d1-64": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/entry-client/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-6"
+        },
+        {
+          "uid": "b5d1-54"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-56"
+        }
+      ]
+    },
+    "b5d1-65": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/islands/router.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-6"
+        }
+      ]
+    },
+    "b5d1-66": {
+      "id": "/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.4/node_modules/@solidjs/router/dist/index.jsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-18"
+        },
+        {
+          "uid": "b5d1-10"
+        },
+        {
+          "uid": "b5d1-12"
+        },
+        {
+          "uid": "b5d1-16"
+        },
+        {
+          "uid": "b5d1-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-54"
+        },
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-28"
+        },
+        {
+          "uid": "b5d1-75"
+        }
+      ]
+    },
+    "b5d1-67": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-68"
+        },
+        {
+          "uid": "b5d1-69"
+        },
+        {
+          "uid": "b5d1-70"
+        },
+        {
+          "uid": "b5d1-71"
+        },
+        {
+          "uid": "b5d1-28"
+        },
+        {
+          "uid": "b5d1-22"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-72"
+        },
+        {
+          "uid": "b5d1-73"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-52"
+        },
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-60"
+        },
+        {
+          "uid": "b5d1-62"
+        }
+      ]
+    },
+    "b5d1-68": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/data/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-75"
+        },
+        {
+          "uid": "b5d1-32"
+        },
+        {
+          "uid": "b5d1-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        },
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-62"
+        },
+        {
+          "uid": "b5d1-34"
+        },
+        {
+          "uid": "b5d1-90"
+        }
+      ]
+    },
+    "b5d1-69": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/error-boundary/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-36"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        }
+      ]
+    },
+    "b5d1-70": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/islands/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-76"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        }
+      ]
+    },
+    "b5d1-71": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-40"
+        },
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-78"
+        },
+        {
+          "uid": "b5d1-38"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        }
+      ]
+    },
+    "b5d1-72": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-80"
+        },
+        {
+          "uid": "b5d1-81"
+        },
+        {
+          "uid": "b5d1-82"
+        },
+        {
+          "uid": "b5d1-83"
+        },
+        {
+          "uid": "b5d1-84"
+        },
+        {
+          "uid": "b5d1-85"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        }
+      ]
+    },
+    "b5d1-73": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/types.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-67"
+        }
+      ]
+    },
+    "b5d1-74": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/browser.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-34"
+        },
+        {
+          "uid": "b5d1-86"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-46"
+        },
+        {
+          "uid": "b5d1-60"
+        },
+        {
+          "uid": "b5d1-62"
+        }
+      ]
+    },
+    "b5d1-75": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/data/createRouteAction.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-66"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-87"
+        },
+        {
+          "uid": "b5d1-22"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-32"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-68"
+        }
+      ]
+    },
+    "b5d1-76": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/islands/clientOnly.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-70"
+        }
+      ]
+    },
+    "b5d1-77": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/Links.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-88"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-71"
+        },
+        {
+          "uid": "b5d1-40"
+        }
+      ]
+    },
+    "b5d1-78": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/Meta.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-71"
+        },
+        {
+          "uid": "b5d1-40"
+        }
+      ]
+    },
+    "b5d1-79": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/islands/server-router.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-28"
+        }
+      ]
+    },
+    "b5d1-80": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/cookies.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-85"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        },
+        {
+          "uid": "b5d1-82"
+        },
+        {
+          "uid": "b5d1-84"
+        }
+      ]
+    },
+    "b5d1-81": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/cookieSigning.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        }
+      ]
+    },
+    "b5d1-82": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/cookieStorage.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-80"
+        },
+        {
+          "uid": "b5d1-84"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        }
+      ]
+    },
+    "b5d1-83": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/memoryStorage.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        }
+      ]
+    },
+    "b5d1-84": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/sessions.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-80"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        },
+        {
+          "uid": "b5d1-82"
+        }
+      ]
+    },
+    "b5d1-85": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/session/cookie.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "b5d1-72"
+        },
+        {
+          "uid": "b5d1-80"
+        }
+      ]
+    },
+    "b5d1-86": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/shared.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-89"
+        },
+        {
+          "uid": "b5d1-58"
+        },
+        {
+          "uid": "b5d1-90"
+        },
+        {
+          "uid": "b5d1-22"
+        },
+        {
+          "uid": "b5d1-24"
+        },
+        {
+          "uid": "b5d1-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-74"
+        }
+      ]
+    },
+    "b5d1-87": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/data/Form.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-75"
+        }
+      ]
+    },
+    "b5d1-88": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/root/InlineStyles.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-8"
+        },
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-77"
+        },
+        {
+          "uid": "b5d1-38"
+        }
+      ]
+    },
+    "b5d1-89": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/components/HttpHeader.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-0"
+        },
+        {
+          "uid": "b5d1-2"
+        },
+        {
+          "uid": "b5d1-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-86"
+        }
+      ]
+    },
+    "b5d1-90": {
+      "id": "/node_modules/.pnpm/solid-start@0.2.7_2a77abb67048100c5387a3213c31dfcd/node_modules/solid-start/server/data.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "b5d1-68"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "b5d1-86"
+        }
+      ]
+    }
+  },
+  "env": {
+    "rollup": "2.79.1"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": false,
+    "sourcemap": false
+  }
+}
